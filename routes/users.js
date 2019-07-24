@@ -4,7 +4,7 @@ var assert = require("assert");
 var router = express.Router();
 
 var client = restify.createJsonClient({
-  url:"http://localhost:4000"
+  url:"https://noderestfull.herokuapp.com/"
 });
 
 
